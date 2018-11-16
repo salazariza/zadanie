@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<html lang="pl">
+  <head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Contact Us</title>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+  <p>Name: <br><input type="text" name="pole1" value=" " size="30"></p>
+  <p>Email: <br><input type="text" name="pole2" value=" " size="30"></p>
+  <p>Subject: <br><input type="text" name="pole3" value=" " size="30"></p>
+  <p>Your Message: <br>
+    <textarea name="tekst1" rows="8" cols="50">
+    </textarea>
+  </p>
+  </body>
+</html>
+
+
+{% endblock content %}

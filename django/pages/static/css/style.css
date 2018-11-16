@@ -1,0 +1,40 @@
+p {
+    font-family: Georgia, Verdana, sans-serif;
+    color: #0B6A8A;
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px;
+  }
+
+h3 {
+  font-family: Georgia, Verdana, sans-serif;
+  color: #0A495E;
+  font-size: 20px;
+  padding: 15px;
+  margin: 5px;
+}
+
+img {
+    padding: 15px;
+}
+
+body {
+      padding: 20px;
+      background-color: #DCEFF5;
+  }
+
+
+header {
+      background-color: #AEE3F5;
+      font-family: Georgia, Verdana, sans-serif;
+      color: #0B6A8A;
+      padding: 5px;
+      text-align: center;
+      font-size: 20px;
+      color: #0D485C;
+      border-color: #0D485C;
+      border: 10px;
+      border-style: double;
+      border-radius: 10px;
+      margin: 10px;
+  }
